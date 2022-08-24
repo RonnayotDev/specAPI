@@ -9,7 +9,7 @@ export class SpecAPIService {
 
   constructor(private http : HttpClient) { }
 
-  getAPI(type: string =''){
-    return this.http.get(`${this.baseUrl}/ED-GetNews?EmployeeId=3`)
+  getAPI(id:number){
+    return this.http.get(`${this.baseUrl}/ED-GetNews?EmployeeId=${id}`)
   }
 }
