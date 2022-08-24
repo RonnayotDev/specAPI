@@ -18,6 +18,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.action-button button{
+    margin: 1rem;
+}
 .title{
     padding: 1rem;
 }
@@ -26,7 +29,9 @@
 }
 .table th{
     background-color: cornflowerblue;
+    color: white;
     padding: 1rem;
+
 }
 .table td{
     text-align: center;
